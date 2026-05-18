@@ -1,0 +1,26 @@
+@font-face{
+    font-family: 'DMSans';
+    src: url("../fonts/DMSans-Regular.ttf");
+}
+
+@font-face  {
+    font-family: 'Exo 2 extraBold';
+    src: url('../fonts/Exo2-ExtraBold.otf');
+}
+
+@font-face  {
+    font-family: 'Exo 2 semiBold';
+    src: url('../fonts/Exo2-SemiBold.otf');
+}
+
+@font-face  {
+    font-family: 'Exo 2 bold';
+    src: url('../fonts/Exo2-Bold.otf');
+}
+
+:root{
+    --ff-exo-bold: 'Exo 2 bold', sans-serif;
+    --ff-exo-semiBold: 'Exo 2 semiBold', sans-serif;
+    --ff-exo-extraBold: 'Exo 2 extraBold', sans-serif;
+    --ff-dm: 'DMSans', sans-serif;
+}
